@@ -8,7 +8,9 @@
     - Express
     - Node.js
 - Database
-     - Mongo DB (Cloud)
+  - Mongo DB (Cloud)
+- IDE
+  - Jetbrains Webstorm
 
 ### Configuring Mongo DB URL
 
