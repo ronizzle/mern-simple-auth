@@ -13,17 +13,19 @@ module.exports = function validateRegisterInput(data) {
     data.password = !isEmpty(data.password) ? data.password : '';
     data.password2 = !isEmpty(data.password2) ? data.password2 : '';
 
-    // Name checks
     if (Validator.isEmpty(data.first_name)) {
         errors.first_name = 'First Name is required';
     }
 
-    // Name checks
     if (Validator.isEmpty(data.last_name)) {
         errors.last_name = 'Last Name is required';
     }
 
-    // Email checks
+    if (Validator.isEmpty(data.contact_number)) {
+        errors.contact_number = 'Contact Number is required';
+    }
+
+
     if (Validator.isEmpty(data.email)) {
         errors.email = 'Email field is required';
     } else if (!Validator.isEmail(data.email)) {

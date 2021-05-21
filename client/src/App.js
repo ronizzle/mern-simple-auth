@@ -11,7 +11,7 @@ import Landing from './components/Landing/Landing';
 import Register from './components/Registration/Registration';
 import Login from './components/Login/Login';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
-import Dashboard from './components/dashboard/Dashboard';
+import Dashboard from './components/Dashboard/Dashboard';
 
 import './App.css';
 
