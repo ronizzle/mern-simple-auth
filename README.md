@@ -23,10 +23,20 @@ module.exports = {
 ```
 
 
+### Installation 
+
+Need to run install the libraries for both the server and client
+```
+npm install
+npm install --prefix client
+```
+
 ### Running 
 
 This uses [Concurrently](https://www.npmjs.com/package/concurrently) to run the client and Server at the same time
 
 ```
+npm install
+npm install --prefix client
 npm run dev
 ```
